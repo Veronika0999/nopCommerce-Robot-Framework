@@ -3,6 +3,7 @@
 # register form
 ${SEL_Register}                 css=.ico-register
 ${SEL_Gender}                   id=gender-male
+${SEL_GenderF}                  id=gender-female
 ${SEL_FirstName}                id=FirstName
 ${SEL_LastName}                 id=LastName
 ${SEL_Email}                    id=Email
@@ -18,6 +19,7 @@ ${SEL_LoginIncorrectEmail}      id=Email-error
 ${SEL_LoginIncorrectPwd1}       id=Password-error
 ${SEL_LoginIncorrectPwd2}       id=ConfirmPassword-error
 
+# Text strings
 ${TEXT_FirstName}               John
 ${TEXT_LastName}                Doe
 ${TEXT_Day}                     10
@@ -26,6 +28,7 @@ ${TEXT_Year}                    89
 ${TEXT_Pwd}                     John123DoeQW?
 ${TEXT_Email}                   wivitin570@acentni.com
 ${TEXT_EmailInstruction}        Email with instructions has been sent to you.
+${TEXT_FirstName2}              Jane
 
 #Error strings
 ${ERROR_TEXT_EmptyEmail}        Email is required.
@@ -37,12 +40,47 @@ ${ERROR_TEXT_WrongLogin}        Login was unsuccessful.
 #login
 ${SEL_Login}                    css=.ico-login
 ${SEL_RememberMe}               id=RememberMe
-${SEL_LoginBtn}                 text="Log in"
+${SEL_LoginBtn}                 xpath=/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button
 ${SEL_Logout}                   css=.ico-logout
 ${SEL_WrongLogin}               css=.field-validation-error
 ${SEL_ForgotPwd}                css=.forgot-password
 ${SEL_RecoverBtn}               xpath=/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[2]/button
 ${SEL_Content}                  css=.content
+
+
+#user profile management
+${SEL_UserAccount}              css=.ico-account
+${SEL_SaveInfoBtn}              id=save-info-button
+${SEL_ConfirmUserSave}          xpath=/html/body/div[5]/div/p
+${SEL_ChangePwdPage}            xpath=/html/body/div[6]/div[3]/div/div[1]/div/div[2]/ul/li[7]
+${SEL_OldPwd}                   id=OldPassword
+${SEL_NewPwd}                   id=NewPassword
+${SEL_NewPwdConfirm}            id=ConfirmNewPassword
+${SEL_PwdSaveBtn}               xpath=/html/body/div[6]/div[3]/div/div[2]/div/div[2]/form/div[2]/button
+${SEL_PwdChange}                xpath=/html/body/div[5]/div/p
+${SEL_AddressPage}              xpath=/html/body/div[6]/div[3]/div/div[1]/div/div[2]/ul/li[2]/a
+${SEL_AddressAddBtn}            xpath=/html/body/div[6]/div[3]/div/div[2]/div/div[2]/div[2]/button
+${SEL_AddressFName}             id=Address_FirstName
+${SEL_AddressLName}             id=Address_LastName
+${SEL_AddressEmail}             id=Address_Email
+${SEL_AddressCountry}           id=Address_CountryId
+${SEL_AddressCity}              id=Address_City
+${SEL_AddressAddress}           id=Address_Address1
+${SEL_AddressZip}               id=Address_ZipPostalCode
+${SEL_AddressPhone}             id=Address_PhoneNumber
+${SEL_AddressSaveBtn}           xpath=/html/body/div[6]/div[3]/div/div[2]/form/div/div[2]/div[2]/button
+${SEL_AddressConfirm}           xpath=/html/body/div[5]/div/p
+
+${TEXT_ConfirmUserSave}         The customer info has been updated successfully.
+${TEXT_NewPwd}                  tohleJeNovePwd5
+${TEXT_PwdChange}               Password was changed
+${TEXT_AddressEmail}            85nh1laa6j@mailcurity.com
+${TEXT_AddressCountry}          5
+${TEXT_AddressCity}             Prague
+${TEXT_AddressAddress}          Street 5
+${TEXT_AddressZip}              11000
+${TEXT_AddressPhone}            777888777
+${TEXT_AddressConfirm}          The new address has been added successfully.
 
 #search
 ${SEL_SearchFile}               id=small-searchterms
