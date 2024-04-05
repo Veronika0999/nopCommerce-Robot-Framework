@@ -47,7 +47,6 @@ ${SEL_ForgotPwd}                css=.forgot-password
 ${SEL_RecoverBtn}               xpath=/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[2]/button
 ${SEL_Content}                  css=.content
 
-
 #user profile management
 ${SEL_UserAccount}              css=.ico-account
 ${SEL_SaveInfoBtn}              id=save-info-button
@@ -82,10 +81,25 @@ ${TEXT_AddressZip}              11000
 ${TEXT_AddressPhone}            777888777
 ${TEXT_AddressConfirm}          The new address has been added successfully.
 
-#search
+#product searching
 ${SEL_SearchFile}               id=small-searchterms
-${SEL_SearchBtn}                text="Search"
-${SEL_SearchItem}               text="Build your own computer"
-${SEL_ComputerRAM}              id=product_attribute_2
+${SEL_SearchBtn}                css=.button-1.search-box-button
+${SEL_BuildComputer}            xpath=/html/body/div[6]/div[3]/div/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div/div/div[2]/h2/a
+${SEL_SearchAdvanced}           xpath=//*[@id="advs"]
+${SEL_SearchCategory}           id=cid
+${SEL_SearchManufacturer}       id=mid
+${SEL_SearchBtnAdvance}         css=.button-1.search-button
+${SEL_AppleMacBookPro}          xpath=/html/body/div[6]/div[3]/div/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div/div/div[2]/h2/a
+${SEL_ProductsPagesize}         id=products-pagesize
+${SEL_BuildComputerPage}        xpath=/html/body/div[6]/div[3]/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div[2]/h2/a
+${SEL_HDD400GB}                 id=product_attribute_3_7
 ${SEL_SWTotalCommander}         id=product_attribute_5_12
+${SEL_ComputerQuantity}         id=product_enteredQuantity_1
 ${SEL_ComputerPrice}            id=price-value-1
+${SEL_Orderby}                  id=products-orderby
+${SEL_NotebookPrice}            xpath=/html/body/div[6]/div[3]/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div[2]/div[3]/div[1]/span
+
+${TEXT_BuildComputer}           Build your own computer
+${TEXT_AppleMacBookPro}         Apple MacBook Pro 13-inch
+${TEXT_ComputerPrice}           $1,420.00
+${TEXT_NotebookPrice}           $1,350.00
