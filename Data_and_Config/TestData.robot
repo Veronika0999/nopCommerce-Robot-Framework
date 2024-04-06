@@ -103,3 +103,21 @@ ${TEXT_BuildComputer}           Build your own computer
 ${TEXT_AppleMacBookPro}         Apple MacBook Pro 13-inch
 ${TEXT_ComputerPrice}           $1,420.00
 ${TEXT_NotebookPrice}           $1,350.00
+
+
+#shopping cart
+${SEL_AppleNtb}                     xpath=/html/body/div[6]/div[3]/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div[1]/div/div[2]/h2/a
+${SEL_QuantityAppleNtb}             id=product_enteredQuantity_4
+${SEL_AppleAddCartBtn}              id=add-to-cart-button-4
+${SEL_HPNtb}                        xpath=/html/body/div[6]/div[3]/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div[3]/div/div[2]/h2/a
+${SEL_QuantityHP}                   id=product_enteredQuantity_8
+${SEL_HPAddCartBtn}                 id=add-to-cart-button-8
+${SEL_ShoppingCartBtn}              css=.cart-label
+${SEL_ShoppingCartQty}              id=itemquantity11223
+${SEL_UpdateShoppingCart}           id=updatecart
+${SEL_ProductPriceShoppingCart}     css=.product-subtotal
+${SEL_RemoveShoppingCartBtn}        css=.remove-btn
+${SEL_EmptyShoppingCart}            css=.no-data
+
+${TEXT_ShoppingCartTotal}           css=.cart-total-left
+${TEXT_EmptyShoppingCart}           Your Shopping Cart is empty!
