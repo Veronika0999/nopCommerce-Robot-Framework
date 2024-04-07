@@ -121,3 +121,9 @@ ${SEL_EmptyShoppingCart}            css=.no-data
 
 ${TEXT_ShoppingCartTotal}           css=.cart-total-left
 ${TEXT_EmptyShoppingCart}           Your Shopping Cart is empty!
+
+#accessibility and usability
+${SEL_NewsletterEmail}             id=newsletter-email
+${TEXT_Title}                      nopCommerce demo store
+${expected text}                   Welcome to our store
+${selector}                        xpath=/html/body/div[6]/div[3]/div/div/div/div/div[2]/div[1]/h2
