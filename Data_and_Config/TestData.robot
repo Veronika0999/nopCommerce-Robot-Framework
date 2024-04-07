@@ -127,3 +127,16 @@ ${SEL_NewsletterEmail}             id=newsletter-email
 ${TEXT_Title}                      nopCommerce demo store
 ${expected text}                   Welcome to our store
 ${selector}                        xpath=/html/body/div[6]/div[3]/div/div/div/div/div[2]/div[1]/h2
+
+#checkout
+${SEL_CheckoutTermofService}        id=termsofservice
+${SEL_CheckoutBtn}                  css=.button-1.checkout-button
+${SEL_BillingAddressContinue}       css=.button-1.new-address-next-step-button
+${SEL_ShippingContinue}             css=.button-1.shipping-method-next-step-button
+${SEL_PaymentContinue}              xpath=//*[@id="payment-method-buttons-container"]/button
+${SEL_PaymentInfoContinue}          css=.button-1.payment-info-next-step-button
+${SEL_PaymentConfirm}               css=.button-1.confirm-order-next-step-button
+${SEL_SuccessfulPayment}            xpath=/html/body/div[6]/div[3]/div/div/div/div[2]/div/div[1]/strong
+${TEXT_SuccessfulPayment}           Your order has been successfully processed!
+${SEL_PleaseSignIn}                 xpath=/html/body/div[6]/div[3]/div/div/div/div[1]/h1
+${TEXT_PleaseSignIn}                Welcome, Please Sign In!
