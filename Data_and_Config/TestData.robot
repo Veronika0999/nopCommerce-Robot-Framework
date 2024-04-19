@@ -140,3 +140,13 @@ ${SEL_SuccessfulPayment}            xpath=/html/body/div[6]/div[3]/div/div/div/d
 ${TEXT_SuccessfulPayment}           Your order has been successfully processed!
 ${SEL_PleaseSignIn}                 xpath=/html/body/div[6]/div[3]/div/div/div/div[1]/h1
 ${TEXT_PleaseSignIn}                Welcome, Please Sign In!
+
+#order management
+${SEL_AccOrders}                    xpath=/html/body/div[6]/div[3]/div/div[1]/div/div[2]/ul/li[3]/a
+${SEL_AccDetailOrder}               text=Details
+${SEL_ReorderBtn}                   css=.button-1.re-order-button
+${SEL_StatusPending}                css=.order-status.pending
+${SEL_HistoryOrder}                 xpath=/html/body/div[6]/div[3]/div/div[2]/div/div[2]/div/div/div[1]/strong
+
+${TEXT_StatusPending}               Pending
+${TEXT_HistoryOrder}                Order Number:
