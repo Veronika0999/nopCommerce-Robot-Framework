@@ -9,7 +9,7 @@ In this repository, you will find a set of test cases and examples demonstrating
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
 ```
-git clone <repository_url>
+git clone https://github.com/Veronika0999/nopCommerce-Robot-Framework.git
 ```
 
 2. **Install Dependencies**: Ensure you have Python and Robot Framework installed on your machine. Additionally, install any necessary browser drivers (e.g., ChromeDriver) as per your testing requirements.
@@ -26,7 +26,7 @@ git clone <repository_url>
 4. **Execute Test Cases**: Run the test cases using the Robot Framework command-line tool. For example:
 
 ```
-robot <test_case_file.robot>
+robot Accessibility_and_Usability.robot
 ```
 5. **Experiment and Learn**: Modify existing test cases or create new ones to experiment with different methods and scenarios. Use the official Robot Framework Browser Library documentation as a reference guide.
 
