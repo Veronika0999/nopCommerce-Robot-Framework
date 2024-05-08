@@ -51,10 +51,6 @@ The project structure consists of the following components:
      - <code> API tests:</code> Test cases for API testing.
      - Data and Config: Directory stores test data and configurations used by the test cases.
      - And much more: Additional test cases covering various aspects of the website's functionality.
-    
-
-## Author
-Me, Veronika.
 
 ## Sources
 - used page: https://www.saucedemo.com/
